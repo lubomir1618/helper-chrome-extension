@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Opta Helper helper 🤔",
+  "description": "...helps with testing a little bit",
+  "version": "0.1",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_end",
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
