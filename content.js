@@ -48,5 +48,5 @@ function reorderComps(competitions) {
 
 if (isValidHostname) {
   document.addEventListener("click", getComps);
-  document.body.style.backgroundColor = "lightgreen";
+  document.body.style.backgroundColor = "#0b6682";
 }
